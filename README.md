@@ -1,10 +1,10 @@
 # README
 
-The Hacking Class
+The Hacking News
 
-Ce project contient une basse de donné ou il y a plusieurs cours et des éleves. Un eleve peut s'inscrie à un seul cour mais un cours peut contenir plusieurs élève NORMAL quoi.
+Ce project contient une base de données Hacker news. Les utilisateurs peuvent poster des liens. Les autres utilisateurs peuvent commenter les liens soumis, ou commenter les commentaires
 
-Pour lance ce magnifique projet vous devez tout d'abord faire :
+Pour lancer ce magnifique projet vous devez d'abord faire :
 
 - bundle install
 
@@ -16,11 +16,12 @@ Puis :
 
 - rails db:seed
 
-Enfin pour pourrez lancer la console et voir nos meuilleurs cours et les Best student.
+Enfin pour pourrez lancer la console et voir les commentaires, liens ou utilisateurs.
 
-Il y a 2 table cours et students 
+Il y a 3 tables, comments, links et users. 
 
-Pour voir les eleves et les cours vous pouvez taper dans la console (rails c):
+Pour les display, vous pouvez taper dans la console (rails c):
 
-- Student.all
-- Cour.all
+- User.all
+- Comment.all
+- Link.all
